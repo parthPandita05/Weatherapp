@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, black, purple);
+    height: 39.9rem;
+    
+    background-repeat: none;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    max-width: fit-content;
+    background: linear-gradient(90deg,#00feba,#5c548a);
+    color:wheat ; 
+    margin: 100px auto 0;
+    border-radius: 40px;
+    padding: 40px 40px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+        
+}
+.search input{
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    background: wheat;
+    padding: 10px;
+    margin-right: 5%;
+    margin-bottom: 5%;   
+    margin-left: 10%;
+} 
+
+.searchButton{
+border: #00feba;
+padding: 9px;
+margin-bottom: 15px;
+margin-right: 10%;
+border-radius: 10px;
+background:bisque;
+cursor: pointer;
+}
+
+.searchButton:hover{
+ transform: translate(-0.5px, -0.5px);
+
+
+}
+
+
+
+
+input::placeholder{
+color: black;
+font-weight: bold;
+align-items: center;
+text-align: center;
+vertical-align: middle;
+}
+
+.weather_icon{
+width: 100px;
+margin-top: 30px;
+
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col1{ 
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col1 img {
+    width: 40px;
+    margin-right:  10%;
+
+}
+
+.col2{ 
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.col2 img {
+    width: 40px;
+    margin-left:  10%;
+    margin-right: 10%;
+}
+
+.humidity,.wind {
+    font-size: 20px;
+    margin-top:  -6px;
+}
+.weather{
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    color: coral;
+}
